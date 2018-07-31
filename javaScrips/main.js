@@ -1,3 +1,6 @@
-let data = require("./ContactCollections");
+"use strict";
 
-console.log(data());
+let contactForm = require("./ContactForm");
+let listContacts = require("./ContactList");
+
+listContacts();
